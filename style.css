@@ -76,3 +76,7 @@ section {
     border-image: linear-gradient(lightsalmon, blue);
     border-image-slice: 1;
 }
+
+footer p {
+    text-align: center;
+}
