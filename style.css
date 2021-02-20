@@ -15,7 +15,8 @@ body {
 }
 
 .half-width img {
-    width: 70%;
+    height: 100%;
+    width: 100%;
 }
 
 .top-banner {
@@ -79,4 +80,84 @@ section {
 
 footer p {
     text-align: center;
+}
+
+.projects {
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 4%;
+}
+
+.single-div::after {
+    width: 100%;
+    content: "";
+    clear: both;
+}
+
+.text {
+    color: brown;
+    text-align: center;
+}
+
+.first {
+    position: relative;
+}
+
+.first img {
+    height: 300px;
+    width: 900px;
+    margin-left: 250px;
+}
+
+.second {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+}
+
+#work {
+    margin-left: 290px;
+    margin-top: 5px;
+}
+
+#chat {
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+#inquiry {
+    font-size: 30px;
+    color: white;
+    font-weight: 20px;
+}
+
+#chat-button {
+    border-radius: 10px;
+    background-color: yellow;
+    margin-bottom: 0px;
+    width: 4cm;
+    height: 60px;
+}
+
+.last-container {
+    text-align: center;
+}
+
+.icon {
+    float: left;
+    margin-left: 610px;
+}
+
+.icon img {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.e-mail {
+    margin-right: 100px;
 }
